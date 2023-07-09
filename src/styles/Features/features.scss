@@ -1,0 +1,179 @@
+@import '../Common/common.scss';
+
+.features{
+    width: 100%;
+    min-height: 75vh;
+    background-color: $darkgray;
+
+    .features-inner{
+        max-width: 1100px;
+        min-height: 75vh;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+
+        .left{
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-y: -150px;
+            background-image: url('../../images/pexels-photo-3584758.jpeg');
+        }
+
+        .right{
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;  
+            padding: 30px;         
+            background-color: $white; 
+
+            .box{
+                padding: 10px 0;
+                font-family: $roboto;
+
+                img{
+                    width: 40px;
+                    margin-bottom: 20px;
+                }
+    
+                h2{
+                    color: $darkgray;
+                    margin-bottom: 20px;
+                }
+    
+                h5{
+                    color: gray;
+                    font-size: 15px;
+                    line-height: 20px;
+                    font-weight: normal;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .features{
+        // padding: 0 60px;
+    
+        .features-inner{
+    
+            .left{
+               
+            }
+    
+            .right{
+    
+                .box{
+    
+                    img{
+
+                    }
+        
+                    h2{
+
+                    }
+        
+                    h5{
+                      
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .features{
+        padding: 0 30px;
+    
+        .features-inner{
+    
+            .left{
+               height: 100%;
+               background-position-y: 0;
+               background-color: rebeccapurple;
+            }
+    
+            .right{
+    
+                .box{
+    
+                    img{
+
+                    }
+        
+                    h2{
+
+                    }
+        
+                    h5{
+                      
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .features{
+        padding: 0 80px 40px 80px;
+    
+        .features-inner{
+            grid-template-columns: 1fr;
+    
+            .left{
+                height: 800px;
+            }
+    
+            .right{
+    
+                .box{
+    
+                    img{
+
+                    }
+        
+                    h2{
+
+                    }
+        
+                    h5{
+                      
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .features{
+        padding: 0 30px 40px 30px;
+    
+        .features-inner{
+    
+            .left{
+                height: 500px;
+            }
+    
+            .right{
+    
+                .box{
+    
+                    img{
+
+                    }
+        
+                    h2{
+
+                    }
+        
+                    h5{
+                      
+                    }
+                }
+            }
+        }
+    }
+}

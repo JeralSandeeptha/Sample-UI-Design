@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.hero {
+  width: 100%;
+  min-height: 70vh;
+  background-image: url("../../images/dddd-min.jpg");
+  background-position-y: -150px;
+}
+.hero .hero-inner {
+  min-height: 70vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #000;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero .hero-inner h2 {
+  font-weight: lighter;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+.hero .hero-inner h1 {
+  font-weight: 800;
+  font-size: 800;
+  line-height: 100px;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hero .hero-inner h5 {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 1250px) {
+  .hero .hero-inner {
+    padding: 30px;
+  }
+  .hero .hero-inner h2 {
+    font-size: 30px;
+  }
+  .hero .hero-inner h1 {
+    font-size: 100px;
+  }
+  .hero .hero-inner h5 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .hero .hero-inner {
+    padding: 30px;
+    color: #fff;
+  }
+  .hero .hero-inner h2 {
+    font-size: 30px;
+  }
+  .hero .hero-inner h1 {
+    font-size: 100px;
+    text-shadow: 5px 5px 8px #a8aab2;
+  }
+  .hero .hero-inner h5 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero .hero-inner {
+    padding: 30px;
+    color: #fff;
+  }
+  .hero .hero-inner h2 {
+    font-size: 25px;
+  }
+  .hero .hero-inner h1 {
+    font-size: 80px;
+  }
+  .hero .hero-inner h5 {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=heroSection.css.map */

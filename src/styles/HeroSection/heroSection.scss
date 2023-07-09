@@ -1,0 +1,105 @@
+@import '../Common/common.scss';
+
+.hero{
+    width: 100%;
+    min-height: 70vh;
+    background-image: url('../../images/dddd-min.jpg');
+    background-position-y: -150px;
+
+    .hero-inner{
+        min-height: 70vh;
+        max-width: 1200px;
+        margin: 0 auto;
+        color: $black;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        flex-direction: column;
+
+        h2{
+            font-weight: lighter;
+            font-size: 30px;
+            font-family: $roboto;
+            margin-bottom: 20px;
+        }
+
+        h1{
+            font-weight: 800;
+            font-size: 800;
+            line-height: 100px;
+            font-size: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h5{
+            font-size: 20px;
+            font-family: $roboto;
+        }
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .hero{
+    
+        .hero-inner{
+            padding: 30px;
+    
+            h2{
+                font-size: 30px;
+            }
+    
+            h1{
+                font-size: 100px;
+            }
+    
+            h5{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .hero{
+    
+        .hero-inner{
+            padding: 30px;
+            color: $white;
+    
+            h2{
+                font-size: 30px;
+            }
+    
+            h1{
+                font-size: 100px;
+                text-shadow: 5px 5px 8px $gray;
+            }
+    
+            h5{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero{
+    
+        .hero-inner{
+            padding: 30px;
+            color: $white;
+    
+            h2{
+                font-size: 25px;
+            }
+    
+            h1{
+                font-size: 80px;
+            }
+    
+            h5{
+                font-size: 18px;
+            }
+        }
+    }
+}

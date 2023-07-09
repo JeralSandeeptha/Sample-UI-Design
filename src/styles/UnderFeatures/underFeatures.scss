@@ -1,0 +1,128 @@
+@import '../Common/common.scss';
+
+.underFeatures{
+    width: 100%;
+    min-height: 75vh;
+    background-image: url('../../images/pexels-photo-1391404.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .underFeatures-inner{
+        max-width: 1100px;
+        min-height: 75vh;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        .wrapper{
+            max-width: 370px;
+            height: 100%;
+            min-height: 75vh;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+
+            .box{
+                background-color: $white;
+                padding: 20px;
+
+                &:nth-child(2){
+                    background-color: $black;
+                    
+                    h2{
+                        color: $white;
+                    }
+                }
+
+                img{
+                    width: 40px;
+                    margin-bottom: 20px;
+                }
+
+                h2{
+                    color: $darkgray;
+                    font-family: $poppins;
+                    margin-bottom: 20px;
+                }
+    
+                h5{
+                    color: gray;
+                    font-size: 15px;
+                    line-height: 20px;
+                    font-weight: normal;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .underFeatures{
+
+        .underFeatures-inner{
+            padding: 0 30px;
+    
+            .wrapper{
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+    
+                .box{
+    
+                    &:nth-child(2){
+                        
+                        h2{
+                        }
+                    }
+    
+                    img{
+                    }
+    
+                    h2{
+                        
+                    }
+        
+                    h5{
+                      
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .underFeatures{
+
+        .underFeatures-inner{
+            justify-content: center;
+            padding: 30px 30px;
+    
+            .wrapper{
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+    
+                .box{
+    
+                    &:nth-child(2){
+                        
+                        h2{
+                        }
+                    }
+    
+                    img{
+                    }
+    
+                    h2{
+                        
+                    }
+        
+                    h5{
+                      
+                    }
+                }
+            }
+        }
+    }
+}
